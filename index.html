@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+
+ <title>Trivial Pursuit</title>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ <header>
+ 
+  <nav>
+   <ul>
+    <li id="logo"><a href="https://alybaba07.github.io/trivialpursuit/">Accueil</a></li>
+   </ul>
+  </nav>
+	  
+  <div id="imagePrincipale">
+  <h1>Questions</h1>
+  </div>
+</header>
+
+<section id="Question">
+<textarea id="tt" size="63%"></textarea>
+<input type="button" value="Random" id="bouton" onClick="populate();">
+<script type="text/javascript" charset="utf-8">
+function populate () {
+    var obj=document.getElementById("tt" ),
+    aleatoire=Math.floor(Math.random()*20);
+    switch(aleatoire){
+    case 0:obj.value="Comment s'appelle le cerf dans Beastars ? Réponse : Louis";break;
+    case 1:obj.value="Qui est le plus génial dans DBZ ? Réponse : Tortue Géniale";break;
+    case 2:obj.value="Celui-ci ne porte pas de sabot mais porte bien son nom (DBZ) Réponse : Satan";break;
+    case 3:obj.value="Pourquoi Axel a arrêté le foot ? (Inazuma Eleven) Réponse : Sa soeur tomba dans le coma suite à un accident, il lui fit la promesse de ne plus jouer au foot";break;
+    case 4:obj.value="Quel est le nom de L ? (DN) Réponse : Lawliet";break;
+	case 5:obj.value="Qu'est ce qui fait chier Saitama ? (OPM) Réponse : Louper des promos à cause des monstres qu'il doit combattre";break;
+	case 6:obj.value="Quel est le nom de super héros de Saitama ? (OPM) Réponse : Le chauve capé";break;
+	case 7:obj.value="Quel est le vrai nom de Ash Lynx ? (Banana Fish) Réponse : Aslan Canllenreese";break;
+	case 8:obj.value="Quel sport pratiquait Eiji ? (Banana Fish) R2ponse : Le saut à la perche";break;
+	case 9:obj.value="Pourquoi Kōsei Arima n'entend plus le son du piano ? (YLIA) Réponse : A cause de la mort de sa mère";break;
+	case 10:obj.value="Pour quelle raison Asta veut devenir Empereur Mage ? (BC) Réponse : Il croit que tout le monde a le droit d'être protégé";break;
+	case 11:obj.value="Comment Kakakshi a obtenu son sharingan ? (Naruto) Réponse : Obito le lui a donné avant de mourir";break;
+	case 12:obj.value="Pourquoi les cheveux de Kaneki sont devenus blancs ? (TG) Réponses : Stress intense après la torture de Jason / Variatons du taux de cellules RC dans son sang";break;
+	case 13:obj.value="Comment Izuku a obtenu le One For All ? (MHA) Réponse : En mangeant une mèche de cheveux d'All Might ";break;
+	case 14:obj.value="Que fait Takemichi pour retourner dans le temps ? (TR) Réponse : Il serre la main de Naoto";break;
+	case 15:obj.value="Quel signe indique à Satoru qu'il va voyager dans le temps ? (Erased) Réponse : Un papillon bleu";break;
+	case 16:obj.value="Quel est le surnom donné à Shiro et Sora ? (NGNL) Réponse : Kûhaku (les blancs)";break;
+	case 17:obj.value="Dans quel match Kagami active la zone pour la prmière fois ? (KnB) Réponse : Match contre l'équipe de Aomine, Gakuen";break;
+	case 18:obj.value="Qu'indique le journal du futur de Yuno ? (Mirai Nikki) Réponse : Voir le futur de Yukki";break;
+	case 19:obj.value="Pour quelle raison Langa déménage au Japon ? (SK8) Réponse : Suite au décès de son père sa mère décide de retourner dans sa ville natale";break;
+    }
+}
+</script>
+</section>
+ <section id="Categories">
+
+<div id="Liste">
+<div class="imagesListe">
+<img src="media/Questions.jpg" alt="Yuji Itadori"></a>
+</div>
+</section>
+
+<footer>
+<div id="deuxièmeTrait"></div>
+<div id="copyright">
+<span>©Alybaba 2022</span>
+</div>
+
+</footer>
+</body>
+
+</html>
